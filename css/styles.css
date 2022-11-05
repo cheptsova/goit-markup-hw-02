@@ -1,0 +1,94 @@
+:root{
+    --primary-text-color:#FFFFFF;
+    --tittle-text-color:#212121;
+    --content-text-color:#757575;
+    --accent-color:#2196F3;
+}
+
+body{
+    background-color: #FFFFFF;
+    color:var(--tittle-text-color);
+}
+ul{
+    list-style: none;
+}
+/* Колір основного тексту #FFFFFF */
+/* додаткові кольори тексту #212121  #757575*/
+/* Білий #FFFFFF #FFFFFF 60 % */
+/* акцент #2196F3 */
+
+
+/* Навігація сайту */
+
+.logo-link {
+    color:var(--accent-color);
+}
+.site-nav a {
+    color: var(--tittle-text-color);
+}
+.contact-info a {
+    color:var(--content-text-color);
+}
+.contact-info a:hover, .site-nav a:hover, 
+.site-nav a:focus, .contact-info a:focus{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-tittle{
+    color:var(--primary-text-color);
+    background-color: #2F303A;
+}
+
+    .hero-button{
+color: var(--primary-text-color);
+background-color: #2196F3;
+}
+
+/* Features */
+
+.feature-list .tittle{
+    color: var(--tittle-text-color);
+}
+
+.feature-list .content{
+    color:var(--content-text-color);
+}
+
+/* Work list */
+.work-list .tittle{
+    color: var(--tittle-text-color);
+}
+
+/* Team list */
+.team-list .tittle{
+    color: var(--tittle-text-color);
+}
+
+.team-name{
+    color: var(--tittle-text-color);
+}
+
+.team-item{
+    color: var(--content-text-color);
+}
+
+/* Footer */
+.contact-address{
+    color: #FFFFFF;
+}
+.contact-mail{
+color: rgba(255, 255, 255, 0.6);;
+}
+.contact-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button site navigation */
+.button{
+    color: var(--tittle-text-color);
+    background-color: #F5F4FA;
+}
+.button:hover, .button:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);}
