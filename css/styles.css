@@ -8,6 +8,12 @@
 body{
     background-color: #FFFFFF;
     color:var(--tittle-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -17,11 +23,30 @@ ul{
 /* Білий #FFFFFF #FFFFFF 60 % */
 /* акцент #2196F3 */
 
+/* Logo */
+.logo-link{
+    color: var(--tittle-text-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19em;
+    text-decoration: none;
+}
 
-/* Навігація сайту */
-
-.logo-link {
+.logo {
     color:var(--accent-color);
+}
+/* Навігація сайту */
+.site-nav{
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    text-decoration: none;
+}
+
+.contact-info{
+    text-decoration: none;
 }
 .site-nav a {
     color: var(--tittle-text-color);
@@ -34,46 +59,99 @@ ul{
     color: var(--accent-color);
 }
 
+.site-nav .link.current{
+    color: var(--accent-color);
+}
 /* Hero */
+.hero{
+    letter-spacing: 0.06em;
+}
 .hero-tittle{
     color:var(--primary-text-color);
     background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
     .hero-button{
 color: var(--primary-text-color);
 background-color: #2196F3;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88em;
 }
 
 /* Features */
 
+
 .feature-list .tittle{
     color: var(--tittle-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14em;
+    text-transform: uppercase;
 }
+
 
 .feature-list .content{
     color:var(--content-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
 }
 
 /* Work list */
 .work-list .tittle{
     color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17em;
 }
 
 /* Team list */
 .team-list .tittle{
     color: var(--tittle-text-color);
+    color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17em;
 }
 
 .team-name{
     color: var(--tittle-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19em;
 }
 
 .team-item{
     color: var(--content-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19em;
 }
 
 /* Footer */
+footer .logo-link{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19em;
+    color: var(--primary-text-color); 
+    text-decoration: none;
+}
+
+footer .logo{
+
+    color:var(--accent-color);
+}
 .contact-address{
     color: #FFFFFF;
 }
@@ -84,6 +162,15 @@ color: rgba(255, 255, 255, 0.6);;
     color: rgba(255, 255, 255, 0.6);
 }
 
+footer{
+    background-color:#2F303A;
+}
+address{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71em;
+}
+
 /* Button site navigation */
 .button{
     color: var(--tittle-text-color);
@@ -92,3 +179,17 @@ color: rgba(255, 255, 255, 0.6);;
 .button:hover, .button:focus{
     color: #FFFFFF;
     background-color: var(--accent-color);}
+
+    /* Work Examples */
+    .examples .tittle{
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2em;
+    }
+
+    .examples .item{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88em;
+    }
