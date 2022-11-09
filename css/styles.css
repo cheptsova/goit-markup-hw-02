@@ -211,7 +211,7 @@ color: rgba(255, 255, 255, 0.6);;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62px;
+    line-height: 1.62;
 }
 .button:hover, .button:focus{
     color: var(--primary-text-color);
