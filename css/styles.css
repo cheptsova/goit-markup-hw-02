@@ -167,7 +167,7 @@ line-height:1.88;
 
 /* Footer */
 .footer .logo-link{
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -205,10 +205,13 @@ color: rgba(255, 255, 255, 0.6);;
 
 /* Button site navigation */
 .button{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--tittle-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--team-bcg-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
 }
 .button:hover, .button:focus{
     color: var(--primary-text-color);
