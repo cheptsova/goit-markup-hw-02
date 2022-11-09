@@ -5,6 +5,7 @@
     --accent-color:#2196F3;
     --hero-bcg-color:#2F303A;
     --team-bcg-color:#F5F4FA;
+    --btn-color:#188CE8;
 }
 
 body{
@@ -92,6 +93,7 @@ background-color: var(--hero-bcg-color);
 }
 
 .hero-btn{
+color: var(--btn-color);
 cursor: pointer;
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
@@ -101,6 +103,7 @@ line-height:1.88;
 
 .hero-btn:hover, .hero-btn:focus{
     background-color:var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 /* Features */
